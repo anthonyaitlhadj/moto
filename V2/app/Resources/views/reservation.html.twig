@@ -1,0 +1,37 @@
+{% block body %}
+    <body style="margin-top: 100px">
+    <div class="panel panel-default" style="margin-left: 180px; width: 900px;">
+        <div class="panel-heading "> Réservation
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" class="form-control" id="lastname" name="lastname">
+                    </div>
+                    <div class="form-group">
+                        <label for="firstname">Prenom</label>
+                        <input type="text" class="form-control" id="firstname" name="firstname">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Mot de passe</label>
+                        <input type="password" class="form-control" id="password" name="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="Confirm_Password">Confirmer le mot de passe</label>
+                        <input type="password" class="form-control" id="Confirm_Password" name="Confirm_Password">
+                    </div>
+                </div>
+            </div>
+            <div class="pull-right control group">
+                <button type='submit' name="submit" class='btn btn-success'>Reservation</button>
+            </div>
+        </div>
+    </div>
+    </body>
+{% endblock %}

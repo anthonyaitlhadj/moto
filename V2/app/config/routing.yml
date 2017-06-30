@@ -1,0 +1,11 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+inscription:
+    resource: '@AppBundle/Controller/InscriptionController.php'
+    type: annotation
+
+connexion:
+    resource: '@AppBundle/Controller/ConnexionController.php'
+    type: annotation
